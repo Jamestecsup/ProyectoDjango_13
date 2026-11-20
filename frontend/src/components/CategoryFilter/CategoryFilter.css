@@ -1,0 +1,17 @@
+.category-filter {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  min-width: 230px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #374151;
+}
+
+.category-filter__select {
+  padding: 0.6rem 0.75rem;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  background: #fff;
+  font: inherit;
+}

@@ -1,0 +1,39 @@
+.catalog {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.catalog__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.catalog__header h1 {
+  margin: 0;
+}
+
+.catalog__subtitle {
+  margin: 0.35rem 0 0;
+  color: #6b7280;
+}
+
+.catalog__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1rem;
+}
+
+.catalog__status {
+  padding: 2rem;
+  border: 1px dashed #d1d5db;
+  border-radius: 12px;
+  color: #6b7280;
+  text-align: center;
+}
+
+.catalog__error {
+  color: #b91c1c;
+}
